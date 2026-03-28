@@ -1,0 +1,1974 @@
+[
+  {
+    "query": "Summarize the technical issue PDF",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Set up a meeting on Thursday about sprint planning",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write a response to Chris about contract",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Update my budget note with please wait for me",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Update the review notes",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Send a reply to James about plan",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Shoot an email to Priya about training session",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Find route to the conference center",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Pull up the security audit file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Put a meeting on my calendar for on Wednesday",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Show me where the gym is",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Write an email to James regarding conference details",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Make a new note about marketing campaign",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Answer back to James about budget",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Add to my sales note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "What is the location of the mall",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Answer back to Jessica about onboarding",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Add notes to my calendar on Friday",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Directions to the hotel",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Set a notification to complete assignment tomorrow",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "What does the code review PDF say",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "How do I get to the post office",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Add next week meeting to my calendar",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "View my note about contract",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Compose an email to Meera regarding contract",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Answer back to Arun about budget",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Remind me about presentation at 11am",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Show me the gym",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Mail Mike about proposal",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Where is the office",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "SMS Manager that good luck today",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Do not let me forget to finish the task next Monday",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "What does the review PDF say",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Shoot a text to Raj saying please wait for me",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Open the note about summary",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Find my sprint planning note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Review the business trip document and summarize",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Schedule a reminder for approve the request tomorrow at 2pm",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Send a text to Tom saying I arrived safely",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Start a new note for workshop agenda",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Where can I find the bookstore",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Drop Kumar a text about leave request",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Take a note about meeting",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Block at 4pm on my calendar for annual review",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Outline the marketing campaign PDF content",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Create a video call link for my colleague",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Drop an email to Professor Lee about sales",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Find route to Central Park",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Give me a reminder to approve the request next Monday",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Show me the project notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Redirect the proposal email to Sarah",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Send Kumar an email about notes",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Draft an email to Jessica about strategy",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "How do I get to home",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Plan a meeting about update for next Monday",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Drive me to nearest gas station",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Add information to my project note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Write I am on my way in my invoice note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Best way to get to the office",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Open my annual review note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Where can I find the restaurant",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Add ideas to my calendar on Friday",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Remind me to call the dentist at 3pm",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Set up a meeting tomorrow evening about invoice",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Get a video conferencing link for the designer",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Brief me on the security audit document",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Put a meeting on my calendar for tomorrow morning",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Forward code review email to Raj",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule sales for on Wednesday",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Look at my leave request notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Get zoom details for meeting with the vendor",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Send Sarah a text saying I miss you",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Where is the mall",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Open the performance review file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Send the review email to Lisa",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Remember to call mom tonight",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Look up the bookstore on the map",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Schedule a meeting this weekend about plan",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Set up a meeting this afternoon about conference details",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Show me where nearest coffee shop is",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Retrieve the schedule document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Brief me on the contract document",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Start a note for annual review",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Write a response to Anna about training session",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write to Client about plan",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create a zoom meeting for update",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Pin the hospital on the map",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Write back to Dr. Smith regarding budget",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create notes for onboarding",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Show me the conference details notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Create a video call link for Manager",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Guide me to the bookstore",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Give me a summary of the project document",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Set up a training session meeting for tomorrow morning",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Access my feedback notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Guide me to the airport",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Set a notification to call mom next Friday",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "What does the strategy PDF say",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Create a new note named onboarding",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Set up a product launch meeting for next Tuesday",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Look for the proposal document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Show me downtown",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Find where the conference details file is",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Remind me tomorrow at 2pm to book flight",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Write a note about customer complaint",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Look at my notes notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Insert I arrived safely into my presentation note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Send the email regarding project to Dr. Smith",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Forward Arun the email about quarterly results",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create an event for technical issue next Monday",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Book a meeting in 30 minutes with Nina",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Reserve on Friday for update meeting",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Pass along the contract email to James",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Access my sprint planning notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Best way to get to the bookstore",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Block tomorrow at 2pm on my calendar for ideas",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create a reminder for call mom tomorrow evening",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Send a reply to Manager about contract",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write back to Alex regarding notes",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Text Mom about ideas",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Locate the clinic",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Please write an email to Team regarding security audit",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Begin a note about project",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Navigate to the restaurant",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Remember to read the report at 10am",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Find where the ideas file is",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Add to my salary discussion note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Contact Mike by email about ideas",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Set up a notes meeting for on Thursday",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Block tomorrow morning on my calendar for security audit",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create a calendar event for this afternoon",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Arrange a zoom meeting with Nina",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule a meeting in 30 minutes about sprint planning",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Show location of the clinic",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Schedule a reminder for book flight at 10am",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Set an alarm to check emails tomorrow at 2pm",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Get zoom details for meeting with Anna",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Text David about notes",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Create a video call link for Mike",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Retrieve my conference details note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Save a note about training session",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Get the path to the sales file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Get directions to the bank",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Read my proposal note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Set up a zoom call with the vendor",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Shoot a text to Professor Lee saying I am on my way",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Remind me on Friday to send invoice",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Guide me to Central Park",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Give me a reminder to check emails this evening",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Write a note about deadline",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Show me where the clinic is",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Add ideas to my calendar on Thursday",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Send the email regarding conference details to the lawyer",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Shoot an email to the lawyer about team outing",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Redirect the update email to Marketing",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Forward this email about salary discussion to the vendor",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Directions to the school",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Respond back to Dr. Smith email on conference details",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule an online meeting with Jennifer about meeting",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Retrieve my ideas note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Append to my notes notes",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Walk me to the mall",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Create an event for workshop agenda in 30 minutes",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Block this evening on my calendar for design mockup",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Look for the meeting document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Create an event for invoice tomorrow",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Forward this email about report to Tom",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Get the path to the notes file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Get a video conferencing link for Dr. Smith",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Open my technical issue note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Schedule an online meeting with the lawyer about notes",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Find the gym location",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Add this afternoon meeting to my calendar",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Best way to get to nearest coffee shop",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Set up a deadline meeting for at 4pm",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Reserve tomorrow morning for sales meeting",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Take a note about training session",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Get the plan file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Share the update email with the supplier",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Can you send an email to the accountant about marketing campaign",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule a meeting at 4pm about sales",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Append to my schedule notes",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Shoot a text to Emma saying see you soon",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Create a calendar event for at 3pm",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Contact the developer by email about presentation",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Create an event for security audit tomorrow at 2pm",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Alert me to check emails in an hour",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Begin a note about notes",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Set a notification to check emails on Thursday",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Schedule a video call about summary",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Add research findings to my calendar in 30 minutes",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Pin the post office on the map",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Mail James about contract",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule a meeting on Thursday about onboarding",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Schedule a meeting on Friday about onboarding",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Forward the email to the developer",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Send Sarah a text saying please wait for me",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Guide me to the library",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Find route to the station",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Write the project is done in my summary note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Update my schedule note with call me back",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Get the quarterly results file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Forward this email about deadline to Priya",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Retrieve the annual review document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Create a calendar event for next Friday",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Find the onboarding document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Add dinner is ready to my ideas note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Forward Professor Lee the email about security audit",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Where can I find the park",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Add happy birthday to my report note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "View my note about budget",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Send a message to Mom via email about team outing",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Give me a summary of the schedule document",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Retrieve the update document",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Send an email to Mike about customer complaint",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Reply to Tom about code review",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Give me a summary of the summary document",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Write back to Mom regarding marketing campaign",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Forward this email about workshop agenda to Professor Lee",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "How do I get to the bookstore",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Send a text to William saying please wait for me",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Create notes for business trip",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Create a reminder for back up files this evening",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Review the presentation document and summarize",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Text David that I will be late",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Find the bookstore location",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Get a video conferencing link for Nina",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Redirect the update email to the supplier",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Text John about customer complaint",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Get my conference details file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "How to reach the post office",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Write back to David regarding deadline",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "What is in the training session PDF",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Append to my quarterly results notes",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Set a reminder to follow up with client tomorrow",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Look at my sprint planning notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Add at 4pm meeting to my calendar",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Text message James that dinner is ready",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Review the salary discussion document and summarize",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Access my contract notes",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Create a calendar event for at noon",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule a meeting on Friday about proposal",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Book time for training session tomorrow",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Add more content to code review note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Find my quarterly results note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Remember to follow up with client this evening",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Pass along the presentation email to Divya",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Make a new note about sprint planning",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Write down team outing in a note",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Send SMS to my colleague about salary discussion",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Schedule a video call about project",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write a response to Lisa about update",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "View my note about security audit",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Block tonight on my calendar for schedule",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Schedule a meeting at 9am about design mockup",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Set up a meeting at 10am about technical issue",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Take me to the gym",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Redirect the schedule email to Anna",
+    "tools": [
+      "forward_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Remind me at 10am to pay bills",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Open the note about invoice",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Add sprint planning to my calendar at 3pm",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Add in an hour meeting to my calendar",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Add security audit to my calendar in 30 minutes",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Pull up my presentation note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Remind me to call the dentist in 30 minutes",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Give me a reminder to finish the task this weekend",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Send a message to the designer via email about ideas",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write I miss you in my report note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Get a video conferencing link for Raj",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Set up a meeting on Thursday about quarterly results",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Outline the notes PDF content",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Pull up my research findings note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Drop the supplier a text about conference details",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  },
+  {
+    "query": "Calendar event for feedback tomorrow",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Append happy birthday to the proposal notes",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Show me where the supermarket is",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Get the schedule file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Add to my annual review note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Walk me to the gym",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Jot down notes about report",
+    "tools": [
+      "create_note"
+    ]
+  },
+  {
+    "query": "Find the hotel on the map",
+    "tools": [
+      "maps_open_location"
+    ]
+  },
+  {
+    "query": "Create a video call link for James",
+    "tools": [
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Digest the conference details document for me",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Calendar event for leave request at 11am",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Calendar event for proposal this weekend",
+    "tools": [
+      "create_calendar_event",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Give summary of security audit PDF",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Read my sprint planning note",
+    "tools": [
+      "open_note"
+    ]
+  },
+  {
+    "query": "Open the team outing file",
+    "tools": [
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Schedule product launch for this evening",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Can you send an email to the vendor about team outing",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "How do I get to downtown",
+    "tools": [
+      "maps_show_direction"
+    ]
+  },
+  {
+    "query": "Create an event for invoice tomorrow at 2pm",
+    "tools": [
+      "create_calendar_event",
+      "get_zoom_meeting_link",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Reply to Anna about budget",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Contact Lisa by email about schedule",
+    "tools": [
+      "compose_new_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Write please wait for me in my technical issue note",
+    "tools": [
+      "append_note_content",
+      "open_note"
+    ]
+  },
+  {
+    "query": "Summarize the contract file",
+    "tools": [
+      "summarize_pdf",
+      "open_and_get_file_path"
+    ]
+  },
+  {
+    "query": "Set a reminder to review document this weekend",
+    "tools": [
+      "create_reminder"
+    ]
+  },
+  {
+    "query": "Set up a meeting next Tuesday about project",
+    "tools": [
+      "create_calendar_event"
+    ]
+  },
+  {
+    "query": "Write a response to Sarah about product launch",
+    "tools": [
+      "reply_to_email",
+      "get_email_address"
+    ]
+  },
+  {
+    "query": "Send a text message to the supplier saying I will call later",
+    "tools": [
+      "send_sms",
+      "get_phone_number"
+    ]
+  }
+]
